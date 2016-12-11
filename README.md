@@ -4,17 +4,17 @@ Requirements:
 Framework:
 ASP.NET Core 1.0
 ​
-framework for website.
+framework for website.  
 API:
 Weather information from 
 ​
 APIXU
 ​
-.
+.  
 Visitor information from 
 ​
 Ipinfo
 ​
-.
-Notes:
+.  
+Notes:  
 Write clean, readable and testable code. Adding CSS styling to website is not mandatory, but preferable. Consuming above APIs must be done server-side. Client-side javascript must not be used for that.
