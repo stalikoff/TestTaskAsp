@@ -1,5 +1,5 @@
 Description:
-Create a simple single page web site. It should detect visitor’s city and display current weather conditions and forecast for 10 days.
+Create a simple single page web site. It should detect visitor’s city and display current weather conditions and forecast for 10 days.__
 Requirements:
 Framework:
 ASP.NET Core 1.0
