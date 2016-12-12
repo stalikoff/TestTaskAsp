@@ -1,0 +1,19 @@
+﻿@using TestTaskAsp.Model;
+
+@model Root
+
+<h2>Forecast in @Model.location.name</h2>
+
+@foreach (ForecastDay forecastday in Model.forecast.forecastday)
+{
+    <div class="weather-tile">
+        <div class="tile-left">
+            <div class="weather-date">@forecastday.date</div>
+            <div class="weather-temp">@forecastday.day.temperature C</div>
+            <div class="weather-overall">@forecastday.day.condition.text</div>
+        </div>
+        <div class="tile-right">
+            <img src="@forecastday.day.condition.icon" class="weather-icon">
+        </div>
+    </div>
+}
