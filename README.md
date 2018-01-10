@@ -16,8 +16,8 @@ Write clean, readable and testable code. Adding CSS styling to website is not ma
 -----
 
 * [Routes](#routes)
-  - [GET /](#get-registerdata)
-  - [GET /](#get-registercountryid)
+  - [GET /register/data](#get-registerdata)
+  - [GET /register/country/:id](#get-registercountryid)
 
 ### Routes
 
