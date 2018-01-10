@@ -9,3 +9,32 @@ Visitor information from Ipinfo.
 Notes:  
 Write clean, readable and testable code. Adding CSS styling to website is not mandatory, but preferable. Consuming above APIs must be done server-side. Client-side javascript must not be used for that.
 
+
+
+### Table of Contents
+
+-----
+
+* [Routes](#routes)
+  - [GET /](#get-registerdata)
+  - [GET /](#get-registercountryid)
+
+### Routes
+
+-----
+
+#### [GET /register/data](#get-registerdata)
+
+Get all data for registration
+
+Method: `GET`<br />
+
+<br />
+
+#### [GET /register/country/:id](#get-registercountryid)
+
+Get country data for registration
+
+Method: `GET`<br />
+
+<br />
